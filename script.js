@@ -31,7 +31,7 @@ boxes.forEach((box) =>{
         count++
 
         let isWinner = checkWinner()
-        if(count==10 && !isWinner){
+        if(count==9 && !isWinner){
             gameDraw()
         }
     })
